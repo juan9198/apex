@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06- informa uma temperatura</title>
+    <script>
+        function Calcular() {
+            //obter o valor
+            var valor = document.getElementById("valor").value
+            var temperatura = parseInt(document.getElementById("temperatura").value)
+
+            //escolha
+
+            switch (temperatura) {
+                case 1:
+                    alert("°C" + (valor / 32))
+                    break
+                case 2:
+                    alert("°F" + (valor * 32))
+                    break
+
+            }
+
+
+
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+    <form>
+        <input type="text" placeholder="valor" id="valor">
+        <select id="temperatura">
+            <option value="1">Celsius para Fahrenheit</option>
+            <option value="2">Fahrenheit para Celsius</option>
+        </select>
+        <input type="button" value="Cadrastrar" onclick="Calcular()">
+
+
+
+
+        ]
+
+
+    </form>
+
+</body>
+
+</html>

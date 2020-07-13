@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07- informe uma cidade</title>
+    <script>
+
+        // Ação de mudança
+        function cidade(elemento) {
+            alert("A cidade selecionada é " + elemento.value)
+        }
+
+    </script>
+</head>
+
+<body>
+    <form>
+
+        <select onchange="cidade(this)">
+            <option value="1">Informe uma cidade</option>
+            <option value="Joinville é um município localizado na região norte do estado de Santa Catarina">Joiville
+            </option>
+            <option
+                value="Blumenau é um município do estado de Santa Catarina, Região Sul do Brasil. Localiza-se na microrregião homônima e na Mesorregião do Vale do Itajaí.">
+                Blumenal</option>
+            <option value="Florianópolis é a capital do estado brasileiro de Santa Catarina, na região Sul do país.">
+                Florianópolis</option>
+        </select>
+
+
+    </form>
+</body>
+
+</html>

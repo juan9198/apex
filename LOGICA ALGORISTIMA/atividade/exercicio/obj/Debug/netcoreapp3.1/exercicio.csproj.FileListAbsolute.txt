@@ -1,0 +1,3 @@
+C:\Users\Apex\Desktop\JUAN\LOGICA ALGORISTIMA\atividade\exercicio\obj\Debug\netcoreapp3.1\exercicio.csprojAssemblyReference.cache
+C:\Users\Apex\Desktop\JUAN\LOGICA ALGORISTIMA\atividade\exercicio\obj\Debug\netcoreapp3.1\exercicio.AssemblyInfoInputs.cache
+C:\Users\Apex\Desktop\JUAN\LOGICA ALGORISTIMA\atividade\exercicio\obj\Debug\netcoreapp3.1\exercicio.AssemblyInfo.cs

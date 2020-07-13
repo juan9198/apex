@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-Atividade</title>
+    <script>
+        // Obter o valor do pedido
+        var pedido = prompt("1)Pizza /2)Pão de queijo /3)Macarrão /4)Pastel")
+
+        // Valor pago pelo cliente 
+        var pagamento = prompt("Imforme o valor pago")
+
+        // calcular o troco
+
+        if (pedido == 1) { troco = pagamento - 12 }
+        if (pedido == 2) { troco = pagamento - 4 }
+        if (pedido == 3) { troco = pagamento - 16 }
+        if (pedido == 4) { troco = pagamento - 4.50 }
+
+        // Emformar o troco
+
+        alert("O troco será de R$ " + troco)
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

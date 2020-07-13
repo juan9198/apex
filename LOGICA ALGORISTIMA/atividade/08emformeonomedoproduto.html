@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>08-Emforme o Nome do produto</title>
+    <script>
+        function Calcular() {
+            //obter nome e valor
+            var Nome = document.getElementById("Nome").value
+            var Valor = parseInt(document.getElementById("Valor").value)
+            var segmento = document.getElementById("segmento").value
+
+            switch (segmento) {
+
+                case "1":
+                    alert("R$" + Valor * 10)
+                    break
+
+                case "2":
+                    alert("R$" + Valor * 0.95)
+                    break
+
+                case "3":
+                    alert("R$" + Valor * 0.90)
+                    break
+
+                case "4":
+                    alert("R$" + Valor * 0.92)
+                    break
+
+            }
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <form>
+
+        <input type="text" placeholder="Nome" id="Nome">
+
+        <input type="text" placeholder="Valor" id="Valor">
+        <select id="segmento">
+            <option value="1">Escolha um segmento</option>
+            <option value="2">Vestuário</option>
+            <option value="3">Eletrônico</option>
+            <option value="4">Alimentício</option>
+
+        </select>
+        <input type="button" value="Cradasta" onclick="Calcular()">
+
+
+    </form>
+</body>
+
+</html>
